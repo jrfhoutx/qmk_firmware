@@ -3,11 +3,11 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
+#define VENDOR_ID       0x574B
 #define PRODUCT_ID      0x6090
 #define DEVICE_VER      0x0002
 #define MANUFACTURER    WoodKeys.click
-#define PRODUCT         2Key2Crawl
+#define PRODUCT         2key2crawl
 #define DESCRIPTION     ATX Keycrawl 2018
 
 /* key matrix size */
@@ -22,7 +22,8 @@
 
 #define ENCODERS_PAD_A { D0 }
 #define ENCODERS_PAD_B { D1 }
-#define ENCODER_RESOLUTION 1
+#define ENCODER_RESOLUTION 2
+
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
